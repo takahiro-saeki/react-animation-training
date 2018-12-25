@@ -1,0 +1,16 @@
+.mainArea {
+  margin: 3rem auto;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #424242;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  li {
+    color: #fff;
+  }
+}

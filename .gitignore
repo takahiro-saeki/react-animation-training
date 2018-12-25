@@ -63,3 +63,4 @@ typings/
 # parcel cache and dist files.
 .cache
 dist
+idea.md

@@ -4,9 +4,11 @@
   "author": "takahiro <hiroooon69@gmail.com>",
   "dependencies": {
     "animejs": "^2.2.0",
+    "lodash": "^4.17.11",
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
     "react-pose": "^4.0.4",
+    "react-router-config": "^4.4.0-beta.6",
     "react-router-dom": "^4.3.1",
     "react-transition-group": "^2.5.2",
     "styled-components": "^4.1.3"
@@ -16,5 +18,18 @@
   "repository": "https://takahiro-saeki@github.com/takahiro-saeki/react-animation-training.git",
   "scripts": {
     "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "postcss-modules": "^1.4.1",
+    "postcss-preset-env": "^6.5.0",
+    "precss": "^4.0.0"
   }
 }

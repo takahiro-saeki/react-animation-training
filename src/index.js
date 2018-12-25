@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { render } from "react-dom";
+import Root from "./Root";
+import posed from "react-pose";
+import style from "./style.css";
 
-const Main = () => {
-  const [value, setValue] = useState(0);
-  return <div>value is: {value}</div>;
-};
-
-render(<Main />, document.getElementById("app"));
+render(<Root />, document.getElementById("app"));
